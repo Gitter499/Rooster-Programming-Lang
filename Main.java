@@ -23,7 +23,7 @@ class Main {
     run(new String(bytes, Charset.defaultCharset()));
   }
 
-private static void runPrompt() throws IOException { // inter activity (So far no new-code from me)
+private static void runPrompt() throws IOException { // interactive activity (So far no new-code from me)
     InputStreamReader input = new InputStreamReader(System.in);
     BufferedReader reader = new BufferedReader(input);
 
